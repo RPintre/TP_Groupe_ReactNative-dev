@@ -1,4 +1,4 @@
-import * as SQLite from 'expo-sqlite';
+﻿import * as SQLite from 'expo-sqlite';
 import { Platform } from 'react-native';
 import { Photo } from './photo';
 
