@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useFocusEffect, useRouter } from 'expo-router';
 import React, { useCallback, useState } from 'react';
 import { Alert, FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -73,6 +74,7 @@ export default function CalendarScreen() {
           ListEmptyComponent={<Text style={styles.empty}>Aucune photo pour ce jour.</Text>}
         />
       </View>
+
     </View>
   );
 }
@@ -88,3 +90,4 @@ const styles = StyleSheet.create({
   geoText: { fontSize: 12, color: '#666', marginTop: 4 },
   empty: { textAlign: 'center', marginTop: 20, color: '#999' }
 });
+
