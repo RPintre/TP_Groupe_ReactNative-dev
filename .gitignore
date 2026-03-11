@@ -6,7 +6,7 @@ node_modules/
 dist/
 web-build/
 
-# Native folders (only if you eject/prebuild)
+# Native folders 
 ios/
 android/
 
@@ -38,4 +38,4 @@ logs/
 
 # IDEs
 .vscode/
-.idea/
+.idea/node_modules/
