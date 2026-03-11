@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿import { photoDatabase, setupDatabase } from '@/services/database';
 import { Photo } from '@/services/types';
 import useCurrentLocation from '@/utils/location';
@@ -178,6 +179,17 @@ export default function CameraScreen() {
           </View>
         )}
       </ScrollView>
+=======
+import { View, Text, StyleSheet } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+
+export default function CameraScreen() {
+  return (
+    <View style={styles.container}>
+      <Ionicons name="camera" size={80} color="#007AFF" />
+      <Text style={styles.title}>Caméra</Text>
+      <Text style={styles.subtitle}>Écran de la caméra</Text>
+>>>>>>> 9b56997c (fix: install navigation, and create tabs with expo-router and drawer for profil)
     </View>
   );
 }
@@ -185,6 +197,7 @@ export default function CameraScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+<<<<<<< HEAD
     backgroundColor: '#fff',
   },
   scrollContent: {
@@ -193,6 +206,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
     paddingBottom: 40,
+=======
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+>>>>>>> 9b56997c (fix: install navigation, and create tabs with expo-router and drawer for profil)
   },
   title: {
     fontSize: 24,
@@ -203,6 +221,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#666',
     marginTop: 10,
+<<<<<<< HEAD
     textAlign: 'center',
   },
   button: {
@@ -304,5 +323,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: '600',
+=======
+>>>>>>> 9b56997c (fix: install navigation, and create tabs with expo-router and drawer for profil)
   },
 });

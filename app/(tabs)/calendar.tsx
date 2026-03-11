@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿import { useRouter } from 'expo-router';
 import React, { useEffect, useMemo, useState } from 'react';
 import { FlatList, SafeAreaView, StyleSheet, Text, View } from 'react-native';
@@ -64,10 +65,23 @@ export default function CalendarScreen() {
         />
       </View>
     </SafeAreaView>
+=======
+import { View, Text, StyleSheet } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+
+export default function CalendarScreen() {
+  return (
+    <View style={styles.container}>
+      <Ionicons name="calendar" size={80} color="#007AFF" />
+      <Text style={styles.title}>Calendrier</Text>
+      <Text style={styles.subtitle}>Écran du calendrier</Text>
+    </View>
+>>>>>>> 9b56997c (fix: install navigation, and create tabs with expo-router and drawer for profil)
   );
 }
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
   container: { flex: 1, backgroundColor: '#F2F2F7' },
   calendarCard: {
     backgroundColor: '#FFF',
@@ -83,4 +97,22 @@ const styles = StyleSheet.create({
   listContainer: { flex: 1, paddingHorizontal: 15, marginTop: 10 },
   sectionTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15, color: '#1C1C1E' },
   empty: { textAlign: 'center', marginTop: 40, color: '#8E8E93' }
+=======
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 20,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: '#666',
+    marginTop: 10,
+  },
+>>>>>>> 9b56997c (fix: install navigation, and create tabs with expo-router and drawer for profil)
 });
